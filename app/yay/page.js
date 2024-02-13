@@ -6,7 +6,7 @@ export default function page() {
     useEffect(() => {
       // Redirect to another website after 5 seconds
       const timer = setTimeout(() => {
-        window.location.href = 'https://n1ml03.github.io/KN/';
+        window.location.href = 'https://jaclinyugn.vercel.app/';
       }, 10000);
   
       return () => clearTimeout(timer);
